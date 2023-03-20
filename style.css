@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html, body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+aside {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    height: 100%;
+    background-color: #22232d;
+}
+
+.sidebar-content {
+    width: 100%;
+    padding-top: calc(100% - 10vh);
+}
+
+canvas {
+    width: 70%;
+}
+
+input {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    width: 20%;
+    padding: 10px 0px 10px 15px;
+    /* margin: 10px; */
+    border-radius: 50px;
+    border: none;
+    background-color: #353747;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #3a9182;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #31796d;
+    color: #c7c7c7;
+}
+
+button:disabled {
+    cursor: auto;
+    background-color: #31796d;
+    color: #c7c7c7;
+}
+
+button.stop {
+    background-color: #E64452;
+}
+
+button.stop:hover {
+    background-color: #b3353f;
+}
