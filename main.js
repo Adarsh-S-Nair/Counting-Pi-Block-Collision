@@ -97,7 +97,7 @@ let getFirstSquare = () => {
     let square = new Square({
         id: 0,
         width: squareWidth,
-        position: {x: 100, y: floorHeight - squareWidth},
+        position: {x: (canvas.width / 2) - (squareWidth / 2), y: floorHeight - squareWidth},
         mass: 1,
         color: '#fff',
         constraint: 0
